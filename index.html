@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Admission Form</title>
+    <title>Student Admission Form - Dark Theme</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f4f7f8;
+            background-color: #121212;
+            color: #ffffff;
             margin: 0;
             padding: 0;
         }
@@ -15,22 +16,22 @@
         .container {
             max-width: 600px;
             margin: 40px auto;
-            background: #fff;
+            background-color: #1e1e1e;
             padding: 30px 40px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
             border-radius: 8px;
         }
 
         h2 {
             text-align: center;
-            color: #333;
+            color: #ffffff;
             margin-bottom: 25px;
         }
 
         label {
             display: block;
             margin: 15px 0 5px;
-            color: #333;
+            color: #cccccc;
         }
 
         input[type="text"],
@@ -42,13 +43,15 @@
             width: 100%;
             padding: 10px;
             margin-top: 3px;
-            border: 1px solid #ccc;
+            border: 1px solid #333;
             border-radius: 4px;
-            box-sizing: border-box;
+            background-color: #2b2b2b;
+            color: #ffffff;
         }
 
         input[type="file"] {
             margin-top: 5px;
+            color: #cccccc;
         }
 
         .gender-group {
@@ -59,6 +62,11 @@
 
         .gender-group label {
             font-weight: normal;
+            color: #cccccc;
+        }
+
+        input[type="radio"] {
+            accent-color: #007bff;
         }
 
         button {
@@ -78,6 +86,11 @@
 
         button:hover {
             opacity: 0.9;
+        }
+
+        select option {
+            background-color: #2b2b2b;
+            color: #ffffff;
         }
     </style>
 </head>
